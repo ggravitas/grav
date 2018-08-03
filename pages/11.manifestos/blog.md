@@ -8,4 +8,4 @@ hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 hero_image: mountain.jpg
 ---
 
-Manifestos
+#Manifestos#
