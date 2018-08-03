@@ -1,0 +1,11 @@
+email: g.gravitas@gmail.com
+fullname: 'Jerry Brahm'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$mU4Jg5p3QwiFnoHIjmkfjuLow2OSMRtVgidDdjJ7s7A8BJfrf3Day
