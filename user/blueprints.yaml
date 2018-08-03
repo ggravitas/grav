@@ -1,0 +1,17 @@
+name: Open Blog Space
+version: 1.2.4
+description: "Quark Open Blog, designed to publish, share and collaboratively edit Markdown-based content. Includes Admin Panel and Git Sync plugins."
+icon: git
+author:
+ name: Hibbitts Design
+ email: hello@hibbittsdesign.org
+ url: http://hibbittsdesign.org
+homepage: https://github.com/hibbitts-design/grav-skeleton-open-publishing-space
+demo: http://demo.hibbittsdesign.org/grav-open-publishing-quark/
+docs: http://learn.hibbittsdesign.org/openpublishingspace
+keywords: open, publishing, gitsync, chromeless
+bugs: https://github.com/hibbitts-design/grav-skeleton-open-publishing-space/issues
+license: MIT
+
+dependencies:
+  - quark-open-publishing
