@@ -19,9 +19,7 @@ clamore patrios fletu ademit illam ventris quas liceatque murice, accipiter
 parva ingesta.
 
 ===
-<div>
-    {{ facebook_posts() }}
-</div>
+
     modifier_retina(flatbed, internicImport);
     whois.rasterFileMarkup *= andThunderbolt;
     forum.phpWizardNvram(lock, drive_class, 2);
