@@ -30,4 +30,4 @@ pagination: true
 ---
 
 # Out**Rage** Fatigue
-## Publish, Share, and Collaborate
+### Sick and Tired of Being Sick and Tired
