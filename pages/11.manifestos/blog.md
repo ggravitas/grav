@@ -7,7 +7,7 @@ body_classes: header-light
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 hero_image: mountain.jpg
 blog_url: /blog
-show_sidebar: true
+show_sidebar-2: true
 show_breadcrumbs: true
 show_pagination: true
 content:

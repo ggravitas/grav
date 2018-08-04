@@ -7,6 +7,6 @@ visible: false
 
 #### Markdown Area
 
-Some text here.
+Manifestos.
 
 [plugin:page-inject](/twitterfeed)
