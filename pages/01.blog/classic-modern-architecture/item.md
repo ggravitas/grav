@@ -72,3 +72,6 @@ raptam, mihi latentes deducunt mente postquam. Celatos montanaque, prolem;
 
 Adeo hortanda maneat stultae pennis amnis altera, voce deo: res? Hanc lana est
 locutus intrat Lapitharum mersura, Martem Iuno terras?
+<div>
+{{ facebook_posts() }}
+</div>
