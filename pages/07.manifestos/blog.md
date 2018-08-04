@@ -25,4 +25,3 @@ display_post_summary:
 ---
 
 #Manifestos#
-{{ facebook_posts() }}
