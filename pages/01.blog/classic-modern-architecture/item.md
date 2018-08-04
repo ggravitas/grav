@@ -13,15 +13,15 @@ blog_url: /blog
 subtitle: 'finding beauty in structure'
 ---
 
-{{ facebook_posts() }}
-
 Lorem markdownum timore *in*, dant litora texit late **fecisse**. Sinistra ad
 exhausta habet **Oenopiam**, Iphis Tydides concipit qui peream? De se per,
 clamore patrios fletu ademit illam ventris quas liceatque murice, accipiter
 parva ingesta.
 
 ===
-
+<div>
+    {{ facebook_posts() }}
+</div>
     modifier_retina(flatbed, internicImport);
     whois.rasterFileMarkup *= andThunderbolt;
     forum.phpWizardNvram(lock, drive_class, 2);
