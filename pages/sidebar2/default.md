@@ -1,6 +1,5 @@
 ---
-title: 'Sidebar 2'
-hide_git_sync_repo_link: false
+title: 'Sidebar2'
 routable: false
 visible: false
 ---
