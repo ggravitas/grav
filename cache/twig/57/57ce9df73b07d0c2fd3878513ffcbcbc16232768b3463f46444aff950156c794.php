@@ -348,6 +348,6 @@ class __TwigTemplate_929c58820d825f435fba1b354f7510d03195e525578fc2688aa788f5f6d
 
 {% include 'partials/modal-add-package.html.twig' with { type: 'plugin' } %}
 {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
-", "partials/plugins-list.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/plugins-list.html.twig");
+", "partials/plugins-list.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/plugins-list.html.twig");
     }
 }

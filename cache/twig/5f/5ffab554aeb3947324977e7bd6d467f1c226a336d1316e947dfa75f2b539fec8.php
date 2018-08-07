@@ -1607,6 +1607,6 @@ $context["p"], "published", array())) ? (($this->env->getExtension('Grav\Plugin\
     \$('.admin-pages .form-tabs .tabs-nav').css('margin-right', (\$('#admin-topbar').width() + 20) + 'px');
 </script>
 {% endblock %}
-", "pages.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/pages.html.twig");
+", "pages.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/pages.html.twig");
     }
 }

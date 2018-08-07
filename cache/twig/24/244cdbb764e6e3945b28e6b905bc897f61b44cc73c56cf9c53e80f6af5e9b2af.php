@@ -94,6 +94,6 @@ class __TwigTemplate_7228764cd15f1d47bd00183fd540b99451e6577d262ff68a996c9add397
     {% do assets.addCss(theme_url~'/css/nucleus-ie9.css') %}
     {% do assets.addCss(theme_url~'/css/pure-0.5.0/grids-min.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
     }
 }

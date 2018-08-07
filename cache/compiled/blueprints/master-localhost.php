@@ -1,125 +1,129 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1533252920,
-    'checksum' => '5bf312501ec5b202d5595e1b18eb9351',
+    'timestamp' => 1533661102,
+    'checksum' => '3505cbd4ebb6a01cb7ad53a8a85e35c2',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
                 'file' => 'user/plugins/admin/blueprints/config/media.yaml',
-                'modified' => 1533070772
+                'modified' => 1533653797
             ]
         ],
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1533047016
+                'modified' => 1533653797
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1533047016
+                'modified' => 1533653797
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1533047016
+                'modified' => 1533653797
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1533047016
+                'modified' => 1533653797
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1533070772
+                'modified' => 1533653797
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/blueprints.yaml',
-                'modified' => 1533070782
+                'modified' => 1533653797
             ],
             'plugins/auto-date' => [
                 'file' => 'user/plugins/auto-date/blueprints.yaml',
-                'modified' => 1533070780
+                'modified' => 1533653797
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/blueprints.yaml',
-                'modified' => 1533070784
+                'modified' => 1533653797
             ],
             'plugins/customadmin' => [
                 'file' => 'user/plugins/customadmin/blueprints.yaml',
-                'modified' => 1533070838
+                'modified' => 1533653797
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1533070778
+                'modified' => 1533653797
             ],
             'plugins/external_links' => [
                 'file' => 'user/plugins/external_links/blueprints.yaml',
-                'modified' => 1533070786
+                'modified' => 1533653798
             ],
             'plugins/facebook' => [
                 'file' => 'user/plugins/facebook/blueprints.yaml',
-                'modified' => 1533252858
+                'modified' => 1533653798
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
-                'modified' => 1533070788
+                'modified' => 1533653798
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1533070774
+                'modified' => 1533653798
             ],
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/blueprints.yaml',
-                'modified' => 1533070790
+                'modified' => 1533653798
+            ],
+            'plugins/jscomments' => [
+                'file' => 'user/plugins/jscomments/blueprints.yaml',
+                'modified' => 1533661081
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1533070776
+                'modified' => 1533653798
             ],
             'plugins/markdown-fontawesome' => [
                 'file' => 'user/plugins/markdown-fontawesome/blueprints.yaml',
-                'modified' => 1533070792
+                'modified' => 1533653798
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
-                'modified' => 1533070794
+                'modified' => 1533653798
             ],
             'plugins/page-inject' => [
                 'file' => 'user/plugins/page-inject/blueprints.yaml',
-                'modified' => 1533070794
+                'modified' => 1533653798
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/blueprints.yaml',
-                'modified' => 1533070796
+                'modified' => 1533653798
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/blueprints.yaml',
-                'modified' => 1533070798
+                'modified' => 1533653798
             ],
             'plugins/shortcode-core' => [
                 'file' => 'user/plugins/shortcode-core/blueprints.yaml',
-                'modified' => 1533070806
+                'modified' => 1533653798
             ],
             'plugins/shortcode-ui' => [
                 'file' => 'user/plugins/shortcode-ui/blueprints.yaml',
-                'modified' => 1533070808
+                'modified' => 1533653798
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
-                'modified' => 1533070800
+                'modified' => 1533653798
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/blueprints.yaml',
-                'modified' => 1533070800
+                'modified' => 1533653798
             ],
             'plugins/tntsearch' => [
                 'file' => 'user/plugins/tntsearch/blueprints.yaml',
-                'modified' => 1533070804
+                'modified' => 1533653798
             ],
             'plugins/youtube' => [
                 'file' => 'user/plugins/youtube/blueprints.yaml',
-                'modified' => 1533250323
+                'modified' => 1533653798
             ]
         ]
     ],
@@ -3839,6 +3843,552 @@ return [
                 'name' => 'plugins.git-sync._wizard',
                 'validation' => 'strict'
             ],
+            'plugins.jscomments' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.jscomments.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.active' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PLUGIN_ACTIVE',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.active',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.provider' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.TITLE',
+                'data-options@' => '\\Grav\\Plugin\\JSCommentsPlugin::getProviders',
+                'options' => [
+                    '' => 'PLUGINS.JS_COMMENTS.NONE_SELECTED'
+                ],
+                'default' => '',
+                'validate' => [
+                    'required' => true,
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.provider',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.discourse' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.discourse',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.discourse.host' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.DISCOURSE.FIELDS.HOST',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.discourse.host',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.disqus' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.disqus',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.disqus.shortname' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.DISQUS.FIELDS.SHORTNAME',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.disqus.shortname',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.disqus.show_count' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.DISQUS.FIELDS.COUNT',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.disqus.show_count',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.disqus.language' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.DISQUS.FIELDS.DEFAULT_LANGUAGE',
+                'size' => 'x-small',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.disqus.language',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.facebook' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.facebook',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.facebook.app_id' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.APPID',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.facebook.app_id',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.facebook.num_posts' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.NUM_POSTS',
+                'append' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.NUM_POSTS_APPEND',
+                'validate' => [
+                    'type' => 'int',
+                    'min' => 1
+                ],
+                'name' => 'plugins.jscomments.providers.facebook.num_posts',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.facebook.colorscheme' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.COLORSCHEME.TITLE',
+                'default' => 'light',
+                'options' => [
+                    'light' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.COLORSCHEME.OPTIONS.LIGHT',
+                    'dark' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.COLORSCHEME.OPTIONS.DARK'
+                ],
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.facebook.colorscheme',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.facebook.order_by' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.ORDER_BY.TITLE',
+                'default' => 'social',
+                'options' => [
+                    'social' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.ORDER_BY.OPTIONS.SOCIAL',
+                    'reverse_time' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.ORDER_BY.OPTIONS.REVERSE_TIME',
+                    'time' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.ORDER_BY.OPTIONS.TIME'
+                ],
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.facebook.order_by',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.facebook.language' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.LANGUAGE',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.facebook.language',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.facebook.width' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.FACEBOOK.FIELDS.WIDTH',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.facebook.width',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.googleplus' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.googleplus',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.googleplus.show_count' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.GOOGLEPLUS.FIELDS.COUNT',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.googleplus.show_count',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.googleplus.language' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.GOOGLEPLUS.FIELDS.DEFAULT_LANGUAGE',
+                'size' => 'x-small',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.googleplus.language',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.googleplus.width' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.GOOGLEPLUS.FIELDS.WIDTH',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.googleplus.width',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.intensedebate' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.intensedebate',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.intensedebate.account_number' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.INTENSEDEBATE.FIELDS.ACCOUNT_NUMBER',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.intensedebate.account_number',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.isso',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.isso.host' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.HOST',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.host',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.builtin_css' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.BUILTIN_CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.builtin_css',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.language' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.DEFAULT_LANGUAGE',
+                'size' => 'x-small',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.language',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.reply_to_self' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.REPLY_TO_SELF',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.reply_to_self',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.require' => [
+                'type' => 'checkboxes',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.REQUIRE.LABEL',
+                'options' => [
+                    'author' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.REQUIRE.AUTHOR',
+                    'email' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.REQUIRE.EMAIL'
+                ],
+                'default' => [
+                    'author' => true,
+                    'email' => true
+                ],
+                'use' => 'keys',
+                'name' => 'plugins.jscomments.providers.isso.require',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.comments' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.isso.comments',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.isso.comments.number' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.COMMENTS.NUMBER_LABEL',
+                'append' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.COMMENTS.LABEL',
+                'default' => 10,
+                'validate' => [
+                    'min' => -1
+                ],
+                'name' => 'plugins.jscomments.providers.isso.comments.number',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.comments.nested_number' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.COMMENTS.NESTED_LABEL',
+                'append' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.COMMENTS.LABEL',
+                'default' => 5,
+                'validate' => [
+                    'min' => -1
+                ],
+                'name' => 'plugins.jscomments.providers.isso.comments.nested_number',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.comments.reveal' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.COMMENTS.REVEAL_LABEL',
+                'append' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.COMMENTS.LABEL',
+                'default' => 5,
+                'validate' => [
+                    'min' => -1
+                ],
+                'name' => 'plugins.jscomments.providers.isso.comments.reveal',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.avatar' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.isso.avatar',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.isso.avatar.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.AVATAR.LABEL',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.avatar.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.avatar.background' => [
+                'type' => 'colorpicker',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.AVATAR.BG_COLOR',
+                'default' => '',
+                'name' => 'plugins.jscomments.providers.isso.avatar.background',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.avatar.foreground' => [
+                'type' => 'colorpicker',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.AVATAR.FG_COLOR',
+                'default' => '',
+                'name' => 'plugins.jscomments.providers.isso.avatar.foreground',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.vote' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.isso.vote',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.isso.vote.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.VOTE.LABEL',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.vote.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.isso.vote.levels' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.VOTE.LEVELS_LABEL',
+                'description' => 'PLUGINS.JS_COMMENTS.PROVIDERS.ISSO.FIELDS.VOTE.LEVELS_DESCRIPTION',
+                'default' => '',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.isso.vote.levels',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.muut',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.muut.forum' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.FORUM',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.forum',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.channel' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.CHANNEL',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.channel',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.widget' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.WIDGET',
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.widget',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.show_online' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.SHOW_ONLINE',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.show_online',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.show_title' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.SHOW_TITLE',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.show_title',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.upload' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.UPLOAD',
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.upload',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.share' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.SHARE',
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.share',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.muut.language' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.MUUT.FIELDS.LANGUAGE',
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.jscomments.providers.muut.language',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.hypercomments' => [
+                'type' => '_parent',
+                'name' => 'plugins.jscomments.providers.hypercomments',
+                'form_field' => false
+            ],
+            'plugins.jscomments.providers.hypercomments.widget_id' => [
+                'type' => 'text',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.HYPERCOMMENTS.FIELDS.WIDGET_ID',
+                'size' => 'x-small',
+                'validate' => [
+                    'type' => 'int'
+                ],
+                'name' => 'plugins.jscomments.providers.hypercomments.widget_id',
+                'validation' => 'strict'
+            ],
+            'plugins.jscomments.providers.hypercomments.social' => [
+                'type' => 'selectize',
+                'label' => 'PLUGINS.JS_COMMENTS.PROVIDERS.HYPERCOMMENTS.FIELDS.SOCIAL',
+                'validate' => [
+                    'type' => 'commalist'
+                ],
+                'name' => 'plugins.jscomments.providers.hypercomments.social',
+                'validation' => 'strict'
+            ],
             'plugins.login' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -5981,6 +6531,72 @@ return [
                     'logging' => 'plugins.git-sync.logging',
                     '_wizard' => 'plugins.git-sync._wizard'
                 ],
+                'jscomments' => [
+                    'enabled' => 'plugins.jscomments.enabled',
+                    'active' => 'plugins.jscomments.active',
+                    'provider' => 'plugins.jscomments.provider',
+                    'providers' => [
+                        'discourse' => [
+                            'host' => 'plugins.jscomments.providers.discourse.host'
+                        ],
+                        'disqus' => [
+                            'shortname' => 'plugins.jscomments.providers.disqus.shortname',
+                            'show_count' => 'plugins.jscomments.providers.disqus.show_count',
+                            'language' => 'plugins.jscomments.providers.disqus.language'
+                        ],
+                        'facebook' => [
+                            'app_id' => 'plugins.jscomments.providers.facebook.app_id',
+                            'num_posts' => 'plugins.jscomments.providers.facebook.num_posts',
+                            'colorscheme' => 'plugins.jscomments.providers.facebook.colorscheme',
+                            'order_by' => 'plugins.jscomments.providers.facebook.order_by',
+                            'language' => 'plugins.jscomments.providers.facebook.language',
+                            'width' => 'plugins.jscomments.providers.facebook.width'
+                        ],
+                        'googleplus' => [
+                            'show_count' => 'plugins.jscomments.providers.googleplus.show_count',
+                            'language' => 'plugins.jscomments.providers.googleplus.language',
+                            'width' => 'plugins.jscomments.providers.googleplus.width'
+                        ],
+                        'intensedebate' => [
+                            'account_number' => 'plugins.jscomments.providers.intensedebate.account_number'
+                        ],
+                        'isso' => [
+                            'host' => 'plugins.jscomments.providers.isso.host',
+                            'builtin_css' => 'plugins.jscomments.providers.isso.builtin_css',
+                            'language' => 'plugins.jscomments.providers.isso.language',
+                            'reply_to_self' => 'plugins.jscomments.providers.isso.reply_to_self',
+                            'require' => 'plugins.jscomments.providers.isso.require',
+                            'comments' => [
+                                'number' => 'plugins.jscomments.providers.isso.comments.number',
+                                'nested_number' => 'plugins.jscomments.providers.isso.comments.nested_number',
+                                'reveal' => 'plugins.jscomments.providers.isso.comments.reveal'
+                            ],
+                            'avatar' => [
+                                'enabled' => 'plugins.jscomments.providers.isso.avatar.enabled',
+                                'background' => 'plugins.jscomments.providers.isso.avatar.background',
+                                'foreground' => 'plugins.jscomments.providers.isso.avatar.foreground'
+                            ],
+                            'vote' => [
+                                'enabled' => 'plugins.jscomments.providers.isso.vote.enabled',
+                                'levels' => 'plugins.jscomments.providers.isso.vote.levels'
+                            ]
+                        ],
+                        'muut' => [
+                            'forum' => 'plugins.jscomments.providers.muut.forum',
+                            'channel' => 'plugins.jscomments.providers.muut.channel',
+                            'widget' => 'plugins.jscomments.providers.muut.widget',
+                            'show_online' => 'plugins.jscomments.providers.muut.show_online',
+                            'show_title' => 'plugins.jscomments.providers.muut.show_title',
+                            'upload' => 'plugins.jscomments.providers.muut.upload',
+                            'share' => 'plugins.jscomments.providers.muut.share',
+                            'language' => 'plugins.jscomments.providers.muut.language'
+                        ],
+                        'hypercomments' => [
+                            'widget_id' => 'plugins.jscomments.providers.hypercomments.widget_id',
+                            'social' => 'plugins.jscomments.providers.hypercomments.social'
+                        ]
+                    ]
+                ],
                 'login' => [
                     'enabled' => 'plugins.login.enabled',
                     'built_in_css' => 'plugins.login.built_in_css',
@@ -6175,6 +6791,12 @@ return [
                 'options' => [
                     'action' => 'data',
                     'params' => '\\Grav\\Common\\Utils::dateFormats'
+                ]
+            ],
+            'plugins.jscomments.provider' => [
+                'options' => [
+                    'action' => 'data',
+                    'params' => '\\Grav\\Plugin\\JSCommentsPlugin::getProviders'
                 ]
             ],
             'plugins.login.user_registration.groups' => [

@@ -80,6 +80,6 @@ class __TwigTemplate_c322d010b4d3cbdd83043623c2dc3e70011e2de269e9a346d52ed840942
             <a class=\"button\" data-leave-action=\"continue\" href=\"#\"><i class=\"fa fa-fw fa-check\"></i> {{ \"PLUGIN_ADMIN.CONTINUE\"|tu }}</a>
         </div>
     </form>
-</div>", "partials/modal-changes-detected.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+</div>", "partials/modal-changes-detected.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

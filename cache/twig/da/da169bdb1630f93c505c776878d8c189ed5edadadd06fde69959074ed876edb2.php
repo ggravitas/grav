@@ -272,6 +272,6 @@ class __TwigTemplate_e57d548565112561f05972f7279d7ca48ccb287ee690058d4021ba40f01
         </div>
 
     </form>
-</div>", "partials/modal-add-package.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/modal-add-package.html.twig");
+</div>", "partials/modal-add-package.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/modal-add-package.html.twig");
     }
 }

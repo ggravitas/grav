@@ -4,10 +4,10 @@ media_order: mountain.jpg
 hide_git_sync_repo_link: false
 body_classes: 'header-dark header-transparent'
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
-hero_image: mountain.jpg
+hero_image: usa-flag.jpg
 blog_url: /blog
 show_sidebar: true
-show_breadcrumbs: true
+show_breadcrumbs: false
 show_pagination: true
 content:
     items:
@@ -30,4 +30,4 @@ pagination: true
 ---
 
 # Out**Rage** Fatigue
-## Publish, Share, and Collaborate
+### Sick and Tired of Being Sick and Tired

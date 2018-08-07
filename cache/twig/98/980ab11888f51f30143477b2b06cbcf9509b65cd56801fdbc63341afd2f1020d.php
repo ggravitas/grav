@@ -56,6 +56,6 @@ class __TwigTemplate_3179a0ed3c5eab2af01823d8d015578d27115787c70fb31604a82cf4118
         return new Twig_Source("{% set value = (value is null ? (field.evaluate ? evaluate(field.default) : field.default) : value) %}
 
 <input data-grav-field=\"hidden\" data-grav-disabled=\"false\" type=\"hidden\" class=\"input\" name=\"{{ (scope ~ field.name)|fieldName }}\" value=\"{{ value|join(', ') }}\" />
-", "forms/fields/hidden/hidden.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/form/templates/forms/fields/hidden/hidden.html.twig");
+", "forms/fields/hidden/hidden.html.twig", "/Users/temp/repos/grav/user/plugins/form/templates/forms/fields/hidden/hidden.html.twig");
     }
 }

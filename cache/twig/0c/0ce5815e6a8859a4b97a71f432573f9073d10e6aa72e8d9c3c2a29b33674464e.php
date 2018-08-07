@@ -48,6 +48,6 @@ class __TwigTemplate_caf53cca2623b0ccdac20f98dedce6f6676d974cd59c9735f674ac81d28
     public function getSourceContext()
     {
         return new Twig_Source("<img src=\"{{ admin.user.avatarUrl() }}?s=47\" />
-", "partials/nav-user-avatar.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

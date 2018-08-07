@@ -1,22 +1,15 @@
 ---
 title: 'Read Me'
 published: true
+taxonomy:
+    tag:
+        - about
+hide_git_sync_repo_link: false
 ---
 
-### Easily Publish, Share and Collaborate using Grav Open Publishing Space!  
+## [Manifestos](/tag:manifesto#body-wrapper)
 
-1. Create a new [Git](https://git-scm.com/) repository (hosted on [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) or your own server) with at least one commit.
-2. Tap the ':fa-cog: Setup Git Sync' link on the far-right of the site navigation bar of this page for step-by-step instructions.
-3. Configure the [Git Sync Link](../../admin/themes/mytheme) settings in the Theme options to change the display and functionality of the automatically displayed Git Sync Link.
-
-### Embed Open Publishing Space Page Content into Other Systems
-
-By adding the URL parameter (i.e. flag) `chromeless:true` to any Open Publishing Space page you can display that page's content without the global header image, site navigation bar, sidebar and footer - a great way to seamlessly embed Open Publishing Space pages into other systems.  
-
-For example, the URL [http://demo.hibbittsdesign.org/grav-open-publishing-quark/](http://demo.hibbittsdesign.org/grav-open-publishing-quark/) displays the standard Open Publishing Space blog post list page but the URL [http://demo.hibbittsdesign.org/grav-open-publishing-quark/chromeless:true](http://demo.hibbittsdesign.org/grav-open-publishing-quark/chromeless:true) will only display that page's content. Any links between Open Publishing Space pages will result in pages being displayed in the same manner.
-
-### What Else Can the Open Publishing Space do for You? ##
-Learn more about the capabilities of the Open Publishing Space project at [learn.hibbittsdesign.org](http://learn.hibbittsdesign.org/openpublishingspace).
+To me, a personal manifesto is like a grand unified theory of life, and I try to hold myself accountable to it, to various degrees of success. Most of us, I’d say, have actively, as well as unconsciously, sought to define ourselves; we try to figure out who we are and what we believe in. Some people find answers in religion, others in politics or philosophy, and most of us end up with a mishmash of all the above. This serves as our guiding principles on how we live and how we treat our neighbors. But after we crawl out of adolescence and get on with living, most of us – I think – put aside this quest to the point we don’t even realize how successful or unsuccessful we are at living up to our principles. Since I was young, this has fascinated me. And since through this blog I’m still trying to figuring people out, I thought I’d share some manifestos as a sort of menu. There’s something for all tastes.
 
 <hr>
 <br>

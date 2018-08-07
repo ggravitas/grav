@@ -141,6 +141,6 @@ class __TwigTemplate_c8bf95e9b00d0f51d0d1c0b9cf441bdc188928fc971c6ab5871a00ed517
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-new.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
+", "partials/blueprints-new.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
     }
 }

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://shortcode-ui/shortcode-ui.yaml',
-    'modified' => 1533070808,
+    'modified' => 1533653798,
     'data' => [
         'enabled' => true,
         'theme' => [

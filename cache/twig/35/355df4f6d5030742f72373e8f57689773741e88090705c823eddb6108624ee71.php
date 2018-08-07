@@ -358,6 +358,6 @@ class __TwigTemplate_b3dbe389980aac56662eebd63942bca104dac18ca6086fcc71e71cf5b79
         {% endif %}
     </div>
 {% endblock %}
-", "plugins.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/plugins.html.twig");
+", "plugins.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/plugins.html.twig");
     }
 }

@@ -96,6 +96,6 @@ class __TwigTemplate_76480c97ac88ba06c3e4de0984c4d2e686570fe79d99a3008b367c93470
     </select>
     <div class=\"sort-icon\"><i class=\"fa fa-fw fa-sort-amount-asc\"></i></div>
 </div>
-", "partials/list-sort.html.twig", "/Users/jerrybrahm/repos/grav-skeleton-open-blog-space/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+", "partials/list-sort.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

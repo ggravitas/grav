@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://external_links/external_links.yaml',
-    'modified' => 1533070786,
+    'modified' => 1533653798,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
