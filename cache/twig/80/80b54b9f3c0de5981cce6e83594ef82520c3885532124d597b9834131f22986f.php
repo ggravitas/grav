@@ -582,6 +582,6 @@ class __TwigTemplate_73be35ad8886770124de5a09109db46fb13839b62aa93680251279760f4
 {% endblock %}
 
 </body>
-", "partials/base.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/partials/base.html.twig");
     }
 }

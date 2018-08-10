@@ -82,6 +82,6 @@ class __TwigTemplate_06c811b8223eae74aae0ba1d4b98614680d3cf6c800455f6e9adee7207e
  {% endblock %}
  </div>
 {% endif %}
-", "twitterfeed.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/twitterfeed.html.twig");
+", "twitterfeed.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/twitterfeed.html.twig");
     }
 }

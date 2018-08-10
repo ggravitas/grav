@@ -122,6 +122,6 @@ class __TwigTemplate_3f8a28e98de07b717070c882671c9f0df0a06cea4874be46b38e566c144
         {% endif %}
     </form>
 </div>
-", "partials/simplesearch_searchbox.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/partials/simplesearch_searchbox.html.twig");
+", "partials/simplesearch_searchbox.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/partials/simplesearch_searchbox.html.twig");
     }
 }

@@ -64,6 +64,6 @@ class __TwigTemplate_3fcdb25a2c37fa5b14a2dab639b3b5483c30d58995244591749a89636e5
 {% block content %}
     {{ page.content }}
 {% endblock %}
-", "default.html.twig", "/Users/temp/repos/grav/user/themes/quark/templates/default.html.twig");
+", "default.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark/templates/default.html.twig");
     }
 }

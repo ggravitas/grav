@@ -76,6 +76,6 @@ class __TwigTemplate_976877fef3809f00ed351d72a8da25a7340b724d0b166573456db122c61
         {{ content }}
     </section>
     <i id=\"to-start\" class=\"pulse fa fa-angle-down\"></i>
-</section>", "partials/hero.html.twig", "/Users/temp/repos/grav/user/themes/quark/templates/partials/hero.html.twig");
+</section>", "partials/hero.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark/templates/partials/hero.html.twig");
     }
 }

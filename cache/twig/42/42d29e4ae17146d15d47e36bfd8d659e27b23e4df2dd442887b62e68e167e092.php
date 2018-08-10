@@ -96,6 +96,6 @@ class __TwigTemplate_cd603ef84f462d33c51f36fc92b515baec43dace618696174a1fd37199e
     </li>
 {% endfor %}
 </ul>
-", "partials/archives.html.twig", "/Users/temp/repos/grav/user/themes/quark/templates/partials/archives.html.twig");
+", "partials/archives.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark/templates/partials/archives.html.twig");
     }
 }

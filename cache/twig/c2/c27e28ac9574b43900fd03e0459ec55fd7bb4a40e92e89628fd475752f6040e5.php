@@ -240,6 +240,6 @@ class __TwigTemplate_c22a2936c692061d93ffcae08649fb3428924d5e5487db206f685bafd42
       </div>
   </div>
 {% endif %}
-", "partials/blog-list-item.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/partials/blog-list-item.html.twig");
+", "partials/blog-list-item.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/partials/blog-list-item.html.twig");
     }
 }

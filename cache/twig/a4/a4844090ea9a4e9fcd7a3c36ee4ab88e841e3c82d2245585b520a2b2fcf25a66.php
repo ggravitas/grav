@@ -128,6 +128,6 @@ class __TwigTemplate_df5b49f569fb935ea534688e97f8e09e11774aed619118174c518a90793
       {% endif %}
     {% endif %}
 </div>
-", "partials/layout.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/partials/layout.html.twig");
+", "partials/layout.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/partials/layout.html.twig");
     }
 }

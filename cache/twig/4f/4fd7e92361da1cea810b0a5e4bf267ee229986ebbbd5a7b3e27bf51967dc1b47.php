@@ -90,6 +90,6 @@ class __TwigTemplate_e88194e2946f5960c3dc3cf2c471a33108df167201923e2f3bf0a8ff348
     {% endfor %}
 </span>
 {% endif %}
-", "partials/taxonomylist.html.twig", "/Users/temp/repos/grav/user/themes/quark/templates/partials/taxonomylist.html.twig");
+", "partials/taxonomylist.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark/templates/partials/taxonomylist.html.twig");
     }
 }

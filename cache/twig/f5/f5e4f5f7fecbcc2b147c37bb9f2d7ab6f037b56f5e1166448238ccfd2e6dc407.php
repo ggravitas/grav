@@ -422,6 +422,6 @@ class __TwigTemplate_f3fa9555056386e9e90fa9285075fcc6d238756917429f6ec558161c976
     {% endif %}
   {% endif %}
 {% endif %}
-", "partials/git_sync_repo_link.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/partials/git_sync_repo_link.html.twig");
+", "partials/git_sync_repo_link.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/partials/git_sync_repo_link.html.twig");
     }
 }

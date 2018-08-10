@@ -192,6 +192,6 @@ class __TwigTemplate_df5dfcffdda80262f6ed2c375cfc5f18ec624b7c0fc8b8fa550aca363c1
     <a class=\"btn\" href=\"{{ feed_url }}.rss\"><i class=\"fa fa-rss-square\"></i> RSS</a>
 </div>
 {% endif %}
-", "partials/sidebar.html.twig", "/Users/temp/repos/grav/user/themes/quark-open-publishing/templates/partials/sidebar.html.twig");
+", "partials/sidebar.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark-open-publishing/templates/partials/sidebar.html.twig");
     }
 }

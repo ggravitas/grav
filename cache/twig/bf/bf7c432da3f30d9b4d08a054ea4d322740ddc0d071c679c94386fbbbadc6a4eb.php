@@ -60,6 +60,6 @@ class __TwigTemplate_77afa4a83bf37e90800c91561aed570ada12ed24088b77c27ce0dba1e2c
         <i class=\"fa fa-calendar\"></i> {{ page.date|date(system.pages.dateformat.short) }}
     </time>
 </span>
-", "partials/blog/date.html.twig", "/Users/temp/repos/grav/user/themes/quark/templates/partials/blog/date.html.twig");
+", "partials/blog/date.html.twig", "/Users/jerrybrahm/repos/grav/user/themes/quark/templates/partials/blog/date.html.twig");
     }
 }
