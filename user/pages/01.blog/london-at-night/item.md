@@ -1,13 +1,21 @@
 ---
-title: London at Night
-date: 13:34 06/07/2017
-
-hero_classes: text-light title-h1h2 overlay-dark hero-large parallax
-hero_image: unsplash-london-night.jpg
-
+title: 'London at Night'
+date: '06/07/2017 01:34 pm'
 taxonomy:
-    category: blog
-    tag: [city, night, photography]
+    category:
+        - blog
+    tag:
+        - photography
+        - city
+        - night
+hide_git_sync_repo_link: false
+hero_classes: 'text-light title-h1h2 overlay-dark hero-large parallax'
+hero_image: unsplash-london-night.jpg
+blog_url: /blog
+show_sidebar: true
+show_breadcrumbs: true
+show_pagination: true
+hide_from_post_list: false
 ---
 
 Lorem markdownum freta ducentem ut flagrat undas fratrem celeres colloque; in
@@ -16,6 +24,7 @@ aevo praeponere Ixiona novissima eo ater. Exhortor tuae. Est sim auras, paciscor
 tantis et caudice.
 
 ===
+
 
 Canduit dedit solum est Phiale habitat ait. Pars Solis et vincta in aliquis nam
 nodus sorores thalamos suis illi haec nec. Nec etenim aegro habes et undis ubi

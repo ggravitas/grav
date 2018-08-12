@@ -132,28 +132,37 @@ class __TwigTemplate_c22a2936c692061d93ffcae08649fb3428924d5e5487db206f685bafd42
                 echo "              ";
                 echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "summary", array());
                 echo "
-              <br>
-              <a href=\"";
-                // line 46
-                echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
-                echo "\" title=\"";
-                echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
-                echo "\" class=\"btn btn-primary\">Continue Reading</a>
-          ";
+              ";
+                // line 45
+                if (($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "continue_link", array()) === true)) {
+                    // line 46
+                    echo "                <br>
+                <a href=\"";
+                    // line 47
+                    echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
+                    echo "\" title=\"";
+                    echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
+                    echo "\" class=\"btn btn-primary\">";
+                    echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("BLOG.ITEM.CONTINUE_READING");
+                    echo "</a>
+              ";
+                }
+                // line 49
+                echo "          ";
             } else {
-                // line 48
+                // line 50
                 echo "              ";
                 echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
                 echo "
           ";
             }
-            // line 50
+            // line 52
             echo "      </div>
       <div class=\"card-footer\">
           ";
-            // line 52
-            $this->loadTemplate("partials/blog/taxonomy.html.twig", "partials/blog-list-item.html.twig", 52)->display($context);
-            // line 53
+            // line 54
+            $this->loadTemplate("partials/blog/taxonomy.html.twig", "partials/blog-list-item.html.twig", 54)->display($context);
+            // line 55
             echo "      </div>
   </div>
 ";
@@ -172,7 +181,7 @@ class __TwigTemplate_c22a2936c692061d93ffcae08649fb3428924d5e5487db206f685bafd42
 
     public function getDebugInfo()
     {
-        return array (  157 => 53,  155 => 52,  151 => 50,  145 => 48,  138 => 46,  132 => 44,  130 => 43,  125 => 40,  123 => 39,  119 => 37,  117 => 36,  113 => 34,  108 => 31,  100 => 29,  96 => 27,  89 => 25,  84 => 24,  77 => 22,  73 => 21,  68 => 20,  66 => 19,  63 => 18,  60 => 17,  57 => 16,  54 => 15,  51 => 14,  48 => 13,  45 => 12,  42 => 11,  39 => 10,  36 => 9,  33 => 8,  29 => 5,  26 => 4,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  166 => 55,  164 => 54,  160 => 52,  154 => 50,  151 => 49,  142 => 47,  139 => 46,  137 => 45,  132 => 44,  130 => 43,  125 => 40,  123 => 39,  119 => 37,  117 => 36,  113 => 34,  108 => 31,  100 => 29,  96 => 27,  89 => 25,  84 => 24,  77 => 22,  73 => 21,  68 => 20,  66 => 19,  63 => 18,  60 => 17,  57 => 16,  54 => 15,  51 => 14,  48 => 13,  45 => 12,  42 => 11,  39 => 10,  36 => 9,  33 => 8,  29 => 5,  26 => 4,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -229,8 +238,10 @@ class __TwigTemplate_c22a2936c692061d93ffcae08649fb3428924d5e5487db206f685bafd42
       <div class=\"card-body\">
           {% if page.summary != page.content %}
               {{ page.summary }}
-              <br>
-              <a href=\"{{ page.url }}\" title=\"{{ page.title }}\" class=\"btn btn-primary\">Continue Reading</a>
+              {% if page.header.continue_link is sameas(true) %}
+                <br>
+                <a href=\"{{ page.url }}\" title=\"{{ page.title }}\" class=\"btn btn-primary\">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a>
+              {% endif %}
           {% else %}
               {{ page.content }}
           {% endif %}

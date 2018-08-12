@@ -1,8 +1,35 @@
+# v1.0.8
+## 08/09/2018
+
+1. [](#improved)
+    * Revised the Italian translation for the "Continue Reading" button
+    * Removed unneeded CSS from Blog "Hero" H1 H2 title text
+
+# v1.0.7
+## 08/09/2018
+
+1. [](#bugfix)
+    * Updated the "Continue Reading" button to support multi-language labels
+
+# v1.0.6
+## 08/06/2018
+
+1. [](#improved)
+    * Updated theme screenshots and blueprint
+
+# v1.0.5
+## 08/01/2018
+
+1. [](#bugfix)
+    * Restored check for "Continue Reading" button link in blog post lists
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
 # v1.0.4
 ## 08/01/2018
 
 1. [](#improved)
-    * Changed theme title from "Quark Open Publishing" to "Quark Open Blog"
+    * Updated demo pages in theme '_demo' folder
 
 # v1.0.3
 ## 07/31/2018

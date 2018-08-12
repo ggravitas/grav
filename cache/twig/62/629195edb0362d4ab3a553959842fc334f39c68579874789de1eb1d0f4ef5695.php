@@ -552,6 +552,6 @@ class __TwigTemplate_ae7262fce862ff1ed5e846aa839860bef51c2ad23f629ac732dfe3543f6
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "/Users/temp/repos/grav/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
+", "partials/base-root.html.twig", "/Users/jerrybrahm/repos/grav/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
     }
 }

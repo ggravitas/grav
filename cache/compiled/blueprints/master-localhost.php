@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1533932563,
-    'checksum' => 'e3a77355bbf218b552f4c96e8ced2151',
+    'timestamp' => 1533949083,
+    'checksum' => '2bebe67cf42049ae78e681f004aabcc7',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -36,6 +36,10 @@ return [
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/blueprints.yaml',
                 'modified' => 1533932390
+            ],
+            'plugins/assets' => [
+                'file' => 'user/plugins/assets/blueprints.yaml',
+                'modified' => 1533947199
             ],
             'plugins/auto-date' => [
                 'file' => 'user/plugins/auto-date/blueprints.yaml',
@@ -2591,6 +2595,28 @@ return [
                     'or' => 'Or - Boolean ||'
                 ],
                 'name' => 'plugins.archives.filter_combinator',
+                'validation' => 'strict'
+            ],
+            'plugins.assets' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.assets.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.assets.enabled',
                 'validation' => 'strict'
             ],
             'plugins.auto-date' => [
@@ -6390,6 +6416,9 @@ return [
                         'category' => 'plugins.archives.filters.category'
                     ],
                     'filter_combinator' => 'plugins.archives.filter_combinator'
+                ],
+                'assets' => [
+                    'enabled' => 'plugins.assets.enabled'
                 ],
                 'auto-date' => [
                     'enabled' => 'plugins.auto-date.enabled'

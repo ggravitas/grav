@@ -1,15 +1,24 @@
 ---
-title: The Urban Jungle
-date: 17:34 07/04/2017 
-
-hero_classes: text-light title-h1h2 overlay-dark-gradient hero-large parallax
+title: 'The Urban Jungle'
+date: '07/04/2017 05:34 pm'
+hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 hero_image: unsplash-sidney-perry.jpg
 show_sidebar: true
-
 taxonomy:
     category: blog
-    tag: [travel, photography, city]
+    tag:
+        - travel
+        - photography
+        - city
 ---
+
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=437950656695336&autoLogAppEvents=1';
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 Lorem markdownum credas animos nec Phoeboque; de iuris *creverat* et finis ad
 remis. Mox hanc innixus actum dabitur Amorum; esse erat paventem. Cum sole deque
@@ -17,6 +26,8 @@ manu memores neu aurea sit est, ira.
 
 ===
 
+
+<div class="fb-page" data-href="https://www.facebook.com/jerry.brahm" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jerry.brahm">Facebook</a></blockquote></div>
 - Dique tantique Ampyca
 - Fastigia inquit centumque longos
 - Egit nebulasque

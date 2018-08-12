@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1533932560,
-    'checksum' => '72f06a082867c3d20acff98015e48faf',
+    'timestamp' => 1533949081,
+    'checksum' => 'f95fe4eb8047c45a0981e1556721f67e',
     'files' => [
         'user/config' => [
             'media' => [
@@ -12,6 +12,10 @@ return [
             'plugins/admin' => [
                 'file' => 'user/config/plugins/admin.yaml',
                 'modified' => 1533932390
+            ],
+            'plugins/assets' => [
+                'file' => 'user/config/plugins/assets.yaml',
+                'modified' => 1533948049
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/config/plugins/breadcrumbs.yaml',
@@ -59,7 +63,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1533932390
+                'modified' => 1533936797
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -67,7 +71,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1533932390
+                'modified' => 1533949070
             ],
             'themes/antimatter-open-publishing' => [
                 'file' => 'user/config/themes/antimatter-open-publishing.yaml',
@@ -108,6 +112,10 @@ return [
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/archives.yaml',
                 'modified' => 1533932390
+            ],
+            'plugins/assets' => [
+                'file' => 'user/plugins/assets/assets.yaml',
+                'modified' => 1533947199
             ],
             'plugins/auto-date' => [
                 'file' => 'user/plugins/auto-date/auto-date.yaml',
@@ -291,6 +299,9 @@ return [
                     'month' => 'archives_month',
                     'year' => 'archives_year'
                 ]
+            ],
+            'assets' => [
+                'enabled' => true
             ],
             'auto-date' => [
                 'enabled' => true
@@ -978,11 +989,11 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'OutRage Fatigue',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Jerry',
+                'email' => 'g.gravits@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -1030,7 +1041,7 @@ return [
         ],
         'system' => [
             'absolute_urls' => false,
-            'timezone' => '',
+            'timezone' => 'America/New_York',
             'default_locale' => NULL,
             'param_sep' => ':',
             'wrapped_site' => false,
@@ -1066,14 +1077,14 @@ return [
                     'count' => 20
                 ],
                 'dateformat' => [
-                    'default' => NULL,
+                    'default' => 'm/d/Y h:i a',
                     'short' => 'jS M Y',
                     'long' => 'F jS \\a\\t g:ia'
                 ],
                 'publish_dates' => true,
                 'process' => [
                     'markdown' => true,
-                    'twig' => false
+                    'twig' => true
                 ],
                 'twig_first' => false,
                 'never_cache_twig' => false,
@@ -1168,7 +1179,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => '0',
+                'display' => 0,
                 'log' => true
             ],
             'debugger' => [
@@ -1194,7 +1205,7 @@ return [
                     
                 ],
                 'auto_metadata_exif' => false,
-                'upload_limit' => 33554432
+                'upload_limit' => 2097152
             ],
             'session' => [
                 'enabled' => true,
