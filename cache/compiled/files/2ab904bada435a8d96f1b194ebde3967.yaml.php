@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jerrybrahm/repos/grav/user/plugins/tntsearch/blueprints.yaml',
-    'modified' => 1533932391,
+    'modified' => 1534108497,
     'data' => [
         'name' => 'TNT Search',
         'version' => '2.0.2',

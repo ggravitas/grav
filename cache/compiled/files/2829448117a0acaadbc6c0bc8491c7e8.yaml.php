@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jerrybrahm/repos/grav/user/plugins/relatedpages/blueprints.yaml',
-    'modified' => 1533932391,
+    'modified' => 1534108497,
     'data' => [
         'name' => 'Related Pages',
         'version' => '1.1.4',

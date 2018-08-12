@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jerrybrahm/repos/grav/user/config/site.yaml',
-    'modified' => 1533936797,
+    'modified' => 1534108496,
     'data' => [
         'title' => 'OutRage Fatigue',
         'default_lang' => 'en',
